@@ -10,11 +10,11 @@ contract Array{
 	}
 
 	function length() public view returns(uint){
-		return arr.length
+		return arr.length;
 	}
 }
 
 /* 
  - in fixed size array - during compile time we now about size of array
  - if we increase values of array then it give error
-*/-
+*/
