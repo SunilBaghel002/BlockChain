@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "demo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "block_no",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "difficulty",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gasLimit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "coin",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"018 - globalVariable.sol": "Structure"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"018 - globalVariable.sol": {
+			"keccak256": "0xa188d2e278bc0df3388d2fdb12c870b2681cacb6d79a3829fd797704e716ee99",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3402d4d56347d1fa5d3eb498bb779135084c7ca0a235d2ae1fdf80be9f496f64",
+				"dweb:/ipfs/QmNMCgZVsfgkDQUCmsDWxSMhqKEwE8rHsb9vM17BNGXqbu"
+			]
+		}
+	},
+	"version": 1
+}
