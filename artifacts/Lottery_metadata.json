@@ -56,6 +56,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -88,11 +101,11 @@
 	},
 	"sources": {
 		"Projects/Lottery.sol": {
-			"keccak256": "0x02cf24db48d2a448b76c053ac82726eb8b0eb46caf81e94f25f47e5955df6650",
+			"keccak256": "0x458906f2201b29d6032f173f5ba84c5eb9ee4e145fa61525b82a9b3fd19e3f0f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://be2942b4c4faff1e2aa33453391fd6eca899ca2b30aecac1fc94e2bf313ba93e",
-				"dweb:/ipfs/QmSzjuwFEPJ8iaHf7mLnC68obSsdTYAS2zwGT2Nbs7BaGD"
+				"bzz-raw://83e222a90eb0810c56fc58d698cd538b75db809764c38928f8eb0c4730edf8b3",
+				"dweb:/ipfs/QmZWBduZEKEJWYdwr4UFMgC7pAQP4q4UWK9sLFvc7jLEzi"
 			]
 		}
 	},

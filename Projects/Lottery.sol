@@ -21,7 +21,13 @@ contract Lottery{
     }
 
     function random() public view returns (uint){
-        keccak256(abi.encodePacked(block.difficulty))
+        return uint(keccak256(abi.encodePacked(block.prevrandao, block.timestamp, participants.length)));
+    }
+
+    function selectWinner() public view returns (address){
+        require(msg.sender==manager);
+        require(participants.length == 3);
+        
     }
 }
 
